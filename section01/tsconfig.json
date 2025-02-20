@@ -1,0 +1,11 @@
+{
+  "include": ["src"], // 컴파일 폴더 설정
+  "compilerOptions": {
+    "target": "ESNext", // 자바스크립트 버전 설정
+    "module": "ESNext", // 모듈 사용 방식 버전 설정
+    "outDir": "dist", // 컴파일 된 파일의 폴더 위치 지정
+    "strict": false, // 타입 검사의 엄격성 여부
+    "moduleDetection": "force", // 모듈 감지 옵션 설정 (개별 모듈 설정)
+    "skipLibCheck": true
+  }
+}
